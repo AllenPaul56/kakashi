@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <title>
+            Chess Board
+        </title>
+
+        <body>
+        <h1>Chess Board </h1>
+        <?php
+        echo "<table width=400px cellspacing=0px border=1px>"
+            for($r=1;$r<=8;$r++)
+            {
+                echo "<tr>";
+                    for($c=1;$c<=8;$c++)
+                    {
+                        $tot=$r+$c
+                        if($tot%2==0)
+                        {
+                            echo "<td height=35px width=30px bgcolor=#fffffff></td>";
+                        }else{
+                            echo"<td height=35px width=30px bgcolor=#000000></td>";
+                        }
+
+                        
+                    }
+            }
+                echo"</tr>";
+        ?>    
+        </body>
+    </head>
+</html>

@@ -1,0 +1,31 @@
+<html>
+<head>
+<style>
+     .div{
+	      width:700px;
+		  height:500px;
+		  padding:0px;
+		  margin:100px auto;
+		  box-shadow:0px 0px 13px 6px grey;
+		  border: 5px solid brown;
+		 
+		  
+		  background-image:url(download2.jpg);
+		  background-size:cover;
+		  text-align:center;
+		  
+		  
+		  }
+	h3{
+       color:green;
+}	   
+</style>
+</head>
+<body>
+
+ 
+<div class="div">
+            <h3>Thank You For visiting maldives</h3>
+</div>
+</body>
+</html>
